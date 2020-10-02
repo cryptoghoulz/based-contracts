@@ -10,12 +10,6 @@ task("accounts", "Prints the list of accounts", async () => {
   }
 });
 
-require('./scripts/oracle.js');
-require('./scripts/based.js');
-require('./scripts/burn-keys.js');
-require('./scripts/moonbase.js');
-require('./scripts/based-god.js');
-
 
 require('dotenv').config();
 const privateKey = process.env.DEV1_PRIVATE_KEY;
